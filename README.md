@@ -1,5 +1,6 @@
-# Swaper priv commercial backEnd app
+# Swaper backEnd app
 Algo trading bot with Risk-reward management. Swaping crypto on binance by REST api.
+##
 
 ### 🛠️ Stack: 
 
@@ -19,8 +20,10 @@ Algo trading bot with Risk-reward management. Swaping crypto on binance by REST 
 
 - MongoDB comunication
 - Trading algos:
-  - **A purchasing algorithm** based on three indicators calculated from data from the Binance exchange. Thanks to the implemented indicator analysis, it makes its own decisions about purchases and purchase volumes. The algorithm runs cyclically        every four hours.  
-  - **The selling algorithm** is based on comparing the value of investments retrieved from the MongoDB database. It then analyzes cryptocurrencies and processes those that are at a profit of 2% or more. It then saves the highest profit in the          database and sells when 80% of the highest profit value is reached. The algorithm runs cyclically every 5 minutes. It works similarly to a stop-loss, except that it maximizes profit and secures profit rather than protecting against loss.          
+  - **A purchasing algorithm** based on three indicators calculated using data from the Binance exchange. Thanks to the implemented indicator analysis, it makes independent decisions regarding purchases and purchase volumes. 
+The algorithm runs cyclically every 4 hours.
+
+- **The selling algorithm** is based on a comparison of investment values taken from the database and current market data. The algorithm analyzes the current value of individual investments, and those that generate a profit of 2% or higher are processed further. For selected positions, the algorithm saves the “highest profit” in the database. In subsequent cycles, it sells positions after reaching 80% of the ‘highest profit’ value or raises the ‘highest profit’ value. The algorithm runs cyclically every 5 minutes. It works similarly to a stop-loss order, with the difference that it maximizes profit and secures it, rather than protecting against loss.        
 ##
 
 ![Logo](https://kubakoder.pl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffavicon.5d6e1adf.png&w=48&q=75)

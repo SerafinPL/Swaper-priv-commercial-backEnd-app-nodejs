@@ -23,6 +23,9 @@ Algo trading bot with Risk-reward management. Swaping crypto on binance by REST 
   - **The selling algorithm** is based on comparing the value of investments retrieved from the MongoDB database. It then analyzes cryptocurrencies and processes those that are at a profit of 2% or more. It then saves the highest profit in the          database and sells when 80% of the highest profit value is reached. The algorithm runs cyclically every 5 minutes. It works similarly to a stop-loss, except that it maximizes profit and secures profit rather than protecting against loss.          
 ##
 
+![Logo](https://kubakoder.pl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffavicon.5d6e1adf.png&w=48&q=75)
+### 👨🏻‍💻 Author: [@SerafinPL](https://www.github.com/serafinpl)
 
+### 🌐 Author URI: [http://kubakoder.pl](http://kubakoder.pl)
 
 

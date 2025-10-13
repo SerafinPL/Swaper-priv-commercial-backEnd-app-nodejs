@@ -13,7 +13,15 @@ Algo trading bot with Risk-reward management. Swaping crypto on binance by REST 
 ![Static Badge](https://img.shields.io/badge/dotenv-16.5.0-ex?style=plastic&logo=dotenv&color=%23ECD53F)
 ![Static Badge](https://img.shields.io/badge/express.js-5.1.0-ex?style=plastic&logo=express&labelColor=%23000&color=%23fff)
 ![Static Badge](https://img.shields.io/badge/mongodb-6.17.0-ex?style=plastic&logo=mongodb&labelColor=%23000&color=%23fff)
+##
 
+### Features
+
+- MongoDB comunication
+- Trading algos:
+  - A purchasing algorithm based on three indicators calculated from data from the Binance exchange. Thanks to the implemented indicator analysis, it makes its own decisions about purchases and purchase volumes. The algorithm runs cyclically        every four hours.  
+
+##
 
 
 

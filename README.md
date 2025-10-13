@@ -20,10 +20,11 @@ Algo trading bot with Risk-reward management. Swaping crypto on binance by REST 
 
 - MongoDB comunication
 - Trading algos:
-  - **A purchasing algorithm** based on three indicators calculated using data from the Binance exchange. Thanks to the implemented indicator analysis, it makes independent decisions regarding purchases and purchase volumes. 
+  - **A purchasing algorithm** based on three indicators calculated using data from the varius exchange. Thanks to the implemented indicator analysis, it makes independent decisions regarding purchases and purchase volumes. 
 The algorithm runs cyclically every 4 hours.
-
-  - **The selling algorithm** is based on a comparison of investment values taken from the database and current market data. The algorithm analyzes the current value of individual investments, and those that generate a profit of 2% or higher are processed further. For selected positions, the algorithm saves the “highest profit” in the database. In subsequent cycles, it sells positions after reaching 80% of the ‘highest profit’ value or raises the ‘highest profit’ value. The algorithm runs cyclically every 5 minutes. It works similarly to a stop-loss order, with the difference that it maximizes profit and secures it, rather than protecting against loss.        
+  - **The selling algorithm** is based on a comparison of investment values taken from the database and current market data. The algorithm analyzes the current value of individual investments, and those that generate a profit of 2% or higher are processed further. For selected positions, the algorithm saves the “highest profit” in the database. In subsequent cycles, it sells positions after reaching 80% of the ‘highest profit’ value or raises the ‘highest profit’ value. The algorithm runs cyclically every 5 minutes. It works similarly to a stop-loss order, with the difference that it maximizes profit and secures it, rather than protecting against loss.
+- REST API comunication with: Binance, Kraken, KuCoin.
+- API to comunicate with client app.
 ##
 
 ![Logo](https://kubakoder.pl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffavicon.5d6e1adf.png&w=48&q=75)

@@ -1,4 +1,4 @@
-# Swaper-priv-commercial-backEnd-app-nodejs
+# Swaper priv commercial backEnd app
 Algo trading bot with Risk-reward management. Swaping crypto on binance by REST api.
 
 ### 🛠️ Stack: 

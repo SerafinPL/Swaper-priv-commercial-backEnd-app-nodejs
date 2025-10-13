@@ -19,8 +19,8 @@ Algo trading bot with Risk-reward management. Swaping crypto on binance by REST 
 
 - MongoDB comunication
 - Trading algos:
-  - A purchasing algorithm based on three indicators calculated from data from the Binance exchange. Thanks to the implemented indicator analysis, it makes its own decisions about purchases and purchase volumes. The algorithm runs cyclically        every four hours.  
-  - The selling algorithm is based on comparing the value of investments retrieved from the MongoDB database. It then analyzes cryptocurrencies and processes those that are at a profit of 2% or more. It then saves the highest profit in the          database and sells when 80% of the highest profit value is reached. The algorithm runs cyclically every 5 minutes. It works similarly to a stop-loss, except that it maximizes profit and secures profit rather than protecting against loss.          
+  - **A purchasing algorithm** based on three indicators calculated from data from the Binance exchange. Thanks to the implemented indicator analysis, it makes its own decisions about purchases and purchase volumes. The algorithm runs cyclically        every four hours.  
+  - **The selling algorithm** is based on comparing the value of investments retrieved from the MongoDB database. It then analyzes cryptocurrencies and processes those that are at a profit of 2% or more. It then saves the highest profit in the          database and sells when 80% of the highest profit value is reached. The algorithm runs cyclically every 5 minutes. It works similarly to a stop-loss, except that it maximizes profit and secures profit rather than protecting against loss.          
 ##
 
 

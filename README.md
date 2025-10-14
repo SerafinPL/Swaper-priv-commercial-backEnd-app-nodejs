@@ -38,4 +38,8 @@ Algo trading bot with Risk-reward management. Swaping crypto on varius exchanges
 
 ### Roadmap
 
-- ![Static Badge](https://img.shields.io/badge/okx-api-ex?style=plastic&logo=okx&labelColor=%23000000&color=%23ffffff) integration.
+- 🟦 ![Static Badge](https://img.shields.io/badge/okx-api-ex?style=plastic&logo=okx&labelColor=%23000000&color=%23ffffff) integration.
+- ...
+- 
+- ✅ ![Static Badge](https://img.shields.io/badge/kraken-api-ex?style=plastic&labelColor=%235841D8&color=%23000) read only integration.
+

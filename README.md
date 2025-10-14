@@ -18,7 +18,7 @@ Algo trading bot with Risk-reward management. Swaping crypto on varius exchanges
 
 ### Features
 
-- Risk and profit management algorithm - The implemented strategy calculates the profit/loss of a position relative to the total capital and the overall profit/loss of the capital. The algorithm compares the defined levels of accepted risk and profit relative to the position and capital. On this basis, it makes independent decisions about the possible exit from a particular position or the entire investment.
+- Risk and reward management algorithm - The implemented strategy calculates the profit/loss of a position relative to the total capital and the overall profit/loss of the capital. The algorithm compares the defined levels of accepted risk and profit relative to the position and capital. On this basis, it makes independent decisions about the possible exit from a particular position or the entire investment.
 - Trading algos:
   - **A purchasing algorithm** based on three indicators calculated using data from the varius exchanges. Thanks to the implemented indicator analysis, it makes independent decisions regarding purchases and purchase volumes. 
 The algorithm runs cyclically every 4 hours.

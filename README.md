@@ -34,5 +34,8 @@ Algo trading bot with Risk-reward management. Swaping crypto on varius exchanges
 ### 👨🏻‍💻 Author: [@SerafinPL](https://www.github.com/serafinpl)
 
 ### 🌐 Author URI: [http://kubakoder.pl](http://kubakoder.pl)
+##
 
+### Roadmap
 
+- ![Static Badge](https://img.shields.io/badge/okx-api-ex?style=plastic&logo=okx&labelColor=%23000000&color=%23ffffff) instgration.

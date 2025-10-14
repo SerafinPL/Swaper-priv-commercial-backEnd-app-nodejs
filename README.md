@@ -43,19 +43,19 @@ Algo trading bot with Risk-reward management. Swaping crypto on varius exchanges
   
 - ✅ make API to get clines data and calculated indicator & ranks from all 3 exchanges by client app
 - ✅ migration invest data from Near to MongoDB
-- ✅ integration new data base provider which is ![Static Badge](https://img.shields.io/badge/mongodb-6.17.0-ex?style=plastic&logo=mongodb&labelColor=%23000&color=%23fff)
+- ✅ integration with new data base provider ![Static Badge](https://img.shields.io/badge/mongodb-6.17.0-ex?style=plastic&logo=mongodb&labelColor=%23000&color=%23fff)
 - ✅ development & implementation of a complex assessment based on three indicators
 - ✅ development & implementation of a rank algorithm for 'indicator 3' calculations
-- ✅ calculate 'indicator 3' form clines kraken & binance data
-- ✅ calculate all 2 indicators form clines binance data
+- ✅ calculate 'indicator 3' from clines kraken & binance data
+- ✅ calculate all 2 indicators from clines binance data
 - ✅ extend the sales algorithm with the “highest profit” stop loss functionality
 - ✅ run a selling algorithm with time cycles on binance
 - ✅ add binance to APIs
 - ✅ ![Static Badge](https://img.shields.io/badge/binance-api-ex?style=plastic&logo=binance&logoColor=%23F0B90B&labelColor=%23000&color=%23F0B90B) integration.
 - ✅ development & implementation of a rank algorithm for 'indicator 2' calculations
 - ✅ development & implementation of a rank algorithm for 'indicator 1' calculations
-- ✅ calculate 'indicator 2' form clines kraken data.
-- ✅ calculate 'indicator 1' form clines kraken data.
+- ✅ calculate 'indicator 2' from clines kraken data.
+- ✅ calculate 'indicator 1' from clines kraken data.
 - ✅ expand API to make purchase on more than one exchanges by client app.
 - ✅ run a selling algorithm with time cycles on kraken
 - ✅ development & implementation of a selling algorithm 

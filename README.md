@@ -46,7 +46,7 @@ Algo trading bot with Risk-reward management. Swaping crypto on varius exchanges
 - ✅ calculate 'indicator 3' form clines binance data. 
 - ✅ calculate 'indicator 2' form clines binance data. 
 - ✅ calculate 'indicator 1' form clines binance data. 
-- ✅ make API to get invest and binance data at onece by client app. 
+- ✅ make API to get invest and binance data at once by client app. 
 - ✅ ![Static Badge](https://img.shields.io/badge/binance-api-ex?style=plastic&logo=binance&logoColor=%23F0B90B&labelColor=%23000&color=%23F0B90B) integration.
 - ✅ development & implementation of a rank algorithm for 'indicator 2' calculations.
 - ✅ development & implementation of a rank algorithm for 'indicator 1' calculations.

@@ -40,15 +40,26 @@ Algo trading bot with Risk-reward management. Swaping crypto on varius exchanges
 
 - 🟦 ![Static Badge](https://img.shields.io/badge/okx-api-ex?style=plastic&logo=okx&labelColor=%23000000&color=%23ffffff) integration.
 - ...
-- ✅ rank algorithm for 'indicator 2' calculations. 
-- ✅ rank algorithm for 'indicator 1' calculations. 
-- ✅ calculate 'indicator 2' form clines data kucoin. 
-- ✅ calculate 'indicator 1' form clines data kucoin. 
+- ✅ development & implementation of a complex assessment based on three indicators
+- ✅ development & implementation of a rank algorithm for 'indicator 3' calculations. 
+- ✅ calculate 'indicator 3' form clines kraken data. 
+- ✅ calculate 'indicator 3' form clines binance data. 
+- ✅ calculate 'indicator 2' form clines binance data. 
+- ✅ calculate 'indicator 1' form clines binance data. 
+- ✅ make API to get invest and binance data at onece by client app. 
+- ✅ ![Static Badge](https://img.shields.io/badge/binance-api-ex?style=plastic&logo=binance&logoColor=%23F0B90B&labelColor=%23000&color=%23F0B90B) integration.
+- ✅ development & implementation of a rank algorithm for 'indicator 2' calculations.
+- ✅ development & implementation of a rank algorithm for 'indicator 1' calculations.
+- ✅ calculate 'indicator 2' form clines kraken data.
+- ✅ calculate 'indicator 1' form clines kraken data.
+- ✅ expand API to make purchase by client app with more than one exchanges. 
+- ✅ expand API to get & set invest data by client app with more than one exchanges. 
 - ✅ make API to get invest and kucoin data at onece by client app. 
 - ✅ ![Static Badge](https://img.shields.io/badge/kucoin-api-ex?style=plastic&logo=kucoin&labelColor=%23000&color=%2301BC8D) read only integration.
+- ✅ make API to make purchase by client app 
 - ✅ make API to get invest and kraken data at onece by client app. 
 - ✅ make API to get & set invest data by client app. 
 - ✅ ![Static Badge](https://img.shields.io/badge/kraken-api-ex?style=plastic&logo=near&labelColor=%23000&color=%23fff) integration as data base. 
-- ✅ ![Static Badge](https://img.shields.io/badge/kraken-api-ex?style=plastic&labelColor=%235841D8&color=%23000) read only integration.
+- ✅ ![Static Badge](https://img.shields.io/badge/kraken-api-ex?style=plastic&labelColor=%235841D8&color=%23000) integration.
 - ✅ ![Static Badge](https://img.shields.io/badge/nodejs-22.20.0-ex?style=plastic&logo=nodedotjs) ![Static Badge](https://img.shields.io/badge/typescript-5.8.3-ex?style=plastic&logo=typescript&logoColor=3178C6&color=3178C6) ![Static Badge](https://img.shields.io/badge/dotenv-16.5.0-ex?style=plastic&logo=dotenv&color=%23ECD53F) startup config.
 

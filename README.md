@@ -40,6 +40,10 @@ Algo trading bot with Risk-reward management. Swaping crypto on varius exchanges
 
 - 🟦 ![Static Badge](https://img.shields.io/badge/okx-api-ex?style=plastic&logo=okx&labelColor=%23000000&color=%23ffffff) integration.
 - ...
+- ✅ rank algorithm for 'indicator 2' calculations. 
+- ✅ rank algorithm for 'indicator 1' calculations. 
+- ✅ calculate 'indicator 2' form clines data kucoin. 
+- ✅ calculate 'indicator 1' form clines data kucoin. 
 - ✅ make API to get invest and kucoin data at onece by client app. 
 - ✅ ![Static Badge](https://img.shields.io/badge/kucoin-api-ex?style=plastic&logo=kucoin&labelColor=%23000&color=%2301BC8D) read only integration.
 - ✅ make API to get invest and kraken data at onece by client app. 

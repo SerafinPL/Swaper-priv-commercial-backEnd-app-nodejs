@@ -29,8 +29,9 @@ Algo trading bot with Risk-reward management. Swaping crypto on varius exchanges
 [ x* ] - x is a ingteger
 ##
 
+ ![Logo](https://kubakoder.pl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffavicon.5d6e1adf.png&w=48&q=75)
 
-### ![Logo](https://kubakoder.pl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffavicon.5d6e1adf.png&w=48&q=75) 👨🏻‍💻 Author: [@SerafinPL](https://www.github.com/serafinpl)
+### 👨🏻‍💻 Author: [@SerafinPL](https://www.github.com/serafinpl)
 
 ### 🌐 Author URI: [http://kubakoder.pl](http://kubakoder.pl)
 

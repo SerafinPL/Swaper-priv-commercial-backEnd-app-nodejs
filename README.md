@@ -38,7 +38,10 @@ Algo trading bot with Risk-reward management. Swaping crypto on varius exchanges
 
 ### Roadmap
 
-- [ ] ![Static Badge](https://img.shields.io/badge/okx-api-ex?style=plastic&logo=okx&labelColor=%23000000&color=%23ffffff) integration.  
+to do:
+- [ ] ![Static Badge](https://img.shields.io/badge/okx-api-ex?style=plastic&logo=okx&labelColor=%23000000&color=%23ffffff) integration.
+      
+done:
 - [x] make API to get clines data and calculated indicator & ranks from all 3 exchanges by client app
 - [x] migration invest data from Near to MongoDB
 - [x] integration with new data base provider ![Static Badge](https://img.shields.io/badge/mongodb-6.17.0-ex?style=plastic&logo=mongodb&labelColor=%23000&color=%23fff)

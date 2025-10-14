@@ -40,6 +40,8 @@ Algo trading bot with Risk-reward management. Swaping crypto on varius exchanges
 
 - 🟦 ![Static Badge](https://img.shields.io/badge/okx-api-ex?style=plastic&logo=okx&labelColor=%23000000&color=%23ffffff) integration.
 - ...
-- 
+- ✅ make ![Static Badge](https://img.shields.io/badge/express.js-5.1.0-ex?style=plastic&logo=express&labelColor=%23000&color=%23fff)  api to comunicte with client app. 
+- ✅ ![Static Badge](https://img.shields.io/badge/kraken-api-ex?style=plastic&logo=near&labelColor=%23000&color=%23fff) integration as data base. 
 - ✅ ![Static Badge](https://img.shields.io/badge/kraken-api-ex?style=plastic&labelColor=%235841D8&color=%23000) read only integration.
+- ✅ ![Static Badge](https://img.shields.io/badge/nodejs-22.20.0-ex?style=plastic&logo=nodedotjs) ![Static Badge](https://img.shields.io/badge/typescript-5.8.3-ex?style=plastic&logo=typescript&logoColor=3178C6&color=3178C6) ![Static Badge](https://img.shields.io/badge/dotenv-16.5.0-ex?style=plastic&logo=dotenv&color=%23ECD53F) config.
 

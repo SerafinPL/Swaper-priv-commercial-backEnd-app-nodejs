@@ -1,4 +1,4 @@
-# Swaper backEnd app
+# Swaper back-end app
 Algo trading bot with Risk-reward management. Swaping crypto on varius exchanges by REST api.
 ##
 

@@ -40,31 +40,31 @@ Algo trading bot with Risk-reward management. Swaping crypto on varius exchanges
 
 - [ ] ![Static Badge](https://img.shields.io/badge/okx-api-ex?style=plastic&logo=okx&labelColor=%23000000&color=%23ffffff) integration.  
 - [x] make API to get clines data and calculated indicator & ranks from all 3 exchanges by client app
-- ✅ migration invest data from Near to MongoDB
-- ✅ integration with new data base provider ![Static Badge](https://img.shields.io/badge/mongodb-6.17.0-ex?style=plastic&logo=mongodb&labelColor=%23000&color=%23fff)
-- ✅ development & implementation of a complex assessment based on three indicators
-- ✅ development & implementation of a rank algorithm for 'indicator 3' calculations
-- ✅ calculate 'indicator 3' from clines kraken & binance data
-- ✅ calculate all 2 indicators from clines binance data
-- ✅ extend the sales algorithm with the “highest profit” stop loss functionality
-- ✅ run a selling algorithm with time cycles on binance
-- ✅ add binance to APIs
-- ✅ ![Static Badge](https://img.shields.io/badge/binance-api-ex?style=plastic&logo=binance&logoColor=%23F0B90B&labelColor=%23000&color=%23F0B90B) integration.
-- ✅ development & implementation of a rank algorithm for 'indicator 2' calculations
-- ✅ development & implementation of a rank algorithm for 'indicator 1' calculations
-- ✅ calculate 'indicator 2' from clines kraken data.
-- ✅ calculate 'indicator 1' from clines kraken data.
-- ✅ expand API to make purchase on more than one exchanges by client app.
-- ✅ run a selling algorithm with time cycles on kraken
-- ✅ development & implementation of a selling algorithm 
-- ✅ expand API to get & set invest data by client app with more than one exchanges.
-- ✅ remake invest data structure to work with more than one exchanges
-- ✅ make API to get invest and kucoin data at onece by client app
-- ✅ ![Static Badge](https://img.shields.io/badge/kucoin-api-ex?style=plastic&logo=kucoin&labelColor=%23000&color=%2301BC8D) read only integration
-- ✅ make API to make purchase on kraken by client app 
-- ✅ make API to get invest and kraken data at onece by client app
-- ✅ make API to get & set invest data by client app
-- ✅ ![Static Badge](https://img.shields.io/badge/near-contract-ex?style=plastic&logo=near&labelColor=%23000&color=%23fff) integration as data base
-- ✅ ![Static Badge](https://img.shields.io/badge/kraken-api-ex?style=plastic&labelColor=%235841D8&color=%23000) integration
-- ✅ ![Static Badge](https://img.shields.io/badge/nodejs-22.20.0-ex?style=plastic&logo=nodedotjs) ![Static Badge](https://img.shields.io/badge/typescript-5.8.3-ex?style=plastic&logo=typescript&logoColor=3178C6&color=3178C6) ![Static Badge](https://img.shields.io/badge/dotenv-16.5.0-ex?style=plastic&logo=dotenv&color=%23ECD53F) startup config
+- [x] migration invest data from Near to MongoDB
+- [x] integration with new data base provider ![Static Badge](https://img.shields.io/badge/mongodb-6.17.0-ex?style=plastic&logo=mongodb&labelColor=%23000&color=%23fff)
+- [x] development & implementation of a complex assessment based on three indicators
+- [x] development & implementation of a rank algorithm for 'indicator 3' calculations
+- [x] calculate 'indicator 3' from clines kraken & binance data
+- [x] calculate all 2 indicators from clines binance data
+- [x] extend the sales algorithm with the “highest profit” stop loss functionality
+- [x] run a selling algorithm with time cycles on binance
+- [x] add binance to APIs
+- [x] ![Static Badge](https://img.shields.io/badge/binance-api-ex?style=plastic&logo=binance&logoColor=%23F0B90B&labelColor=%23000&color=%23F0B90B) integration.
+- [x] development & implementation of a rank algorithm for 'indicator 2' calculations
+- [x] development & implementation of a rank algorithm for 'indicator 1' calculations
+- [x] calculate 'indicator 2' from clines kraken data.
+- [x] calculate 'indicator 1' from clines kraken data.
+- [x] expand API to make purchase on more than one exchanges by client app.
+- [x] run a selling algorithm with time cycles on kraken
+- [x] development & implementation of a selling algorithm 
+- [x] expand API to get & set invest data by client app with more than one exchanges.
+- [x] remake invest data structure to work with more than one exchanges
+- [x] make API to get invest and kucoin data at onece by client app
+- [x] ![Static Badge](https://img.shields.io/badge/kucoin-api-ex?style=plastic&logo=kucoin&labelColor=%23000&color=%2301BC8D) read only integration
+- [x] make API to make purchase on kraken by client app 
+- [x] make API to get invest and kraken data at onece by client app
+- [x] make API to get & set invest data by client app
+- [x] ![Static Badge](https://img.shields.io/badge/near-contract-ex?style=plastic&logo=near&labelColor=%23000&color=%23fff) integration as data base
+- [x] ![Static Badge](https://img.shields.io/badge/kraken-api-ex?style=plastic&labelColor=%235841D8&color=%23000) integration
+- [x] ![Static Badge](https://img.shields.io/badge/nodejs-22.20.0-ex?style=plastic&logo=nodedotjs) ![Static Badge](https://img.shields.io/badge/typescript-5.8.3-ex?style=plastic&logo=typescript&logoColor=3178C6&color=3178C6) ![Static Badge](https://img.shields.io/badge/dotenv-16.5.0-ex?style=plastic&logo=dotenv&color=%23ECD53F) startup config
 

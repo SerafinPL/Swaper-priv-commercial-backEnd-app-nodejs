@@ -50,6 +50,8 @@ in progress:
 - [ ] removal of the implementation of the connection with the near protocol
       
 done:
+
+Ver 0.5 - independent trading app with Risk & Reward management mode
 - [x] run a Risk & Reward management with time cycles on binance
 - [x] development & implementation of a Risk & Reward management algorithm and data structure
 

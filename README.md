@@ -1,5 +1,5 @@
 # Swaper back-end app
-Algo trading bot with Risk-reward management. Swaping crypto on varius exchanges by REST api.
+Algo trading bot with Risk-reward management. Swaping crypto on various exchanges by REST api.
 ##
 
 ### 🛠️ Stack: 

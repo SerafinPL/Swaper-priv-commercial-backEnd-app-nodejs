@@ -43,15 +43,16 @@ to do:
 - [ ] remake invest data structure to work with more than one user
 - [ ] remake Risk & Reward management data structure to work with more than one user
 - [ ] ![Static Badge](https://img.shields.io/badge/okx-api-ex?style=plastic&logo=okx&labelColor=%23000000&color=%23ffffff) integration
-- [ ] review of the entire application code
+- [ ] Make nextAuth & MongoDb integration
 
       
 in progress:
-- [ ] removal of the implementation of the connection with the near protocol
+- [ ] review of the entire application code
       
 done:
 
 Ver 0.5 - independent trading app with Risk & Reward management mode
+- [x] removal of the implementation of the connection with the near protocol
 - [x] run a Risk & Reward management with time cycles on binance
 - [x] development & implementation of a Risk & Reward management algorithm and data structure
 

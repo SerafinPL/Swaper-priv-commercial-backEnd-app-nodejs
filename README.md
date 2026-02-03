@@ -63,6 +63,8 @@ in progress:
 - [ ] remake invest data structure to work with more than one user
 - [ ] ![Static Badge](https://img.shields.io/badge/kucoin-api-ex?style=plastic&logo=kucoin&labelColor=%23000&color=%2301BC8D) full features integration. 
 [Thanks to the functionality launched in the KuCoin API, we can create full integration.](https://www.kucoin.com/announcement/hk-kucoin-convert-now-supports-api-trading?lang=en_US) 
+
+
 done:
 
 Ver 0.7 - make new front-end layout - 2026y

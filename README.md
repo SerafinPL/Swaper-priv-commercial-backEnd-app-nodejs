@@ -16,6 +16,17 @@ Algo trading bot with Risk-reward management. Swaping crypto on various exchange
 ![Static Badge](https://img.shields.io/badge/mongodb-6.17.0-ex?style=plastic&logo=mongodb&labelColor=%23000&color=%23fff)
 ##
 
+### 🏦 Exchanges: 
+
+algoTrade & manual purchase with invest tracking + RRM integration:
+![Static Badge](https://img.shields.io/badge/binance-api-ex?style=plastic&logo=binance&logoColor=%23F0B90B&labelColor=%23000&color=%23F0B90B)
+![Static Badge](https://img.shields.io/badge/kraken-api-ex?style=plastic&labelColor=%235841D8&color=%23000)
+
+read only integration:
+![Static Badge](https://img.shields.io/badge/kucoin-api-ex?style=plastic&logo=kucoin&labelColor=%23000&color=%2301BC8D) 
+
+##
+
 ### Features
 
 - **Risk & Reward management algorithm** - The implemented strategy calculates the profit/loss of a position relative to the total capital and the overall profit/loss of the capital. The algorithm compares the defined levels of accepted risk and reward relative to the position and capital. On this basis, it makes independent decisions about the possible exit from a particular position or the entire investment.
@@ -47,10 +58,11 @@ to do:
 in progress:
 
 - [ ] remake invest data structure to work with more than one user
-- [ ] ![Static Badge](https://img.shields.io/badge/kucoin-api-ex?style=plastic&logo=kucoin&labelColor=%23000&color=%2301BC8D) full use integration with 
+- [ ] ![Static Badge](https://img.shields.io/badge/kucoin-api-ex?style=plastic&logo=kucoin&labelColor=%23000&color=%2301BC8D) full features integration. 
+[https://www.kucoin.com/announcement/hk-kucoin-convert-now-supports-api-trading?lang=en_US&](Thanks to the functionality launched in the KuCoin API, we can create full integration.)
 - [ ] run a selling algorithm with time cycles on kucoin
-- [ ] make API to make purchase on kraken by client app 
-- [ ] make API to get invest and kraken data at once by client app
+- [ ] make API to make purchase on kucoin by client app 
+- [ ] make API to get invest and kucoin data at once by client app
 
 done:
 

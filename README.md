@@ -40,19 +40,22 @@ Algo trading bot with Risk-reward management. Swaping crypto on various exchange
 
 to do:
 
-- [ ] remake invest data structure to work with more than one user
 - [ ] remake Risk & Reward management data structure to work with more than one user
 - [ ] ![Static Badge](https://img.shields.io/badge/okx-api-ex?style=plastic&logo=okx&labelColor=%23000000&color=%23ffffff) integration
-- [ ] Make nextAuth & MongoDb integration
 
-      
+   
 in progress:
-      
+
+- [ ] remake invest data structure to work with more than one user
+
+
 done:
 
 Ver 0.7 - make new front-end layout 
 - [x] The new front-end application was created using next.js version 15. The changes were aimed at integrating OAuth, improving table display, updating nextjs from version 14 and related packages, and changing the UI framework from daisyUI to HeroUI.
 - [x] OAuth integration required to make the application available to beta testers
+- [x] Make nextAuth & MongoDb integration
+
 
 Ver 0.6 - independent trading app with Risk & Reward management mode
 - [x] review of the entire application code

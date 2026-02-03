@@ -1,4 +1,5 @@
-# Swaper back-end app
+# Swaper Algo Trading Commercial App
+
 Algo trading bot with Risk-reward management. Swaping crypto on various exchanges by REST api.
 ##
 

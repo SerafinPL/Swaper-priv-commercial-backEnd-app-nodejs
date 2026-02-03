@@ -51,18 +51,17 @@ read only integration:
 
 to do:
 
+- [ ] run a selling algorithm with time cycles on kucoin
+- [ ] make API to make purchase on kucoin by client app 
+- [ ] make API to get invest and kucoin data at once by client app
 - [ ] remake Risk & Reward management data structure to work with more than one user
 - [ ] ![Static Badge](https://img.shields.io/badge/okx-api-ex?style=plastic&logo=okx&labelColor=%23000000&color=%23ffffff) integration
-
    
 in progress:
 
 - [ ] remake invest data structure to work with more than one user
 - [ ] ![Static Badge](https://img.shields.io/badge/kucoin-api-ex?style=plastic&logo=kucoin&labelColor=%23000&color=%2301BC8D) full features integration. 
 [https://www.kucoin.com/announcement/hk-kucoin-convert-now-supports-api-trading?lang=en_US&](Thanks to the functionality launched in the KuCoin API, we can create full integration.)
-- [ ] run a selling algorithm with time cycles on kucoin
-- [ ] make API to make purchase on kucoin by client app 
-- [ ] make API to get invest and kucoin data at once by client app
 
 done:
 

@@ -72,7 +72,7 @@ read only integration:
 - [x] Make nextAuth & MongoDb integration
 
 
-**Ver 0.6 - independent trading app with Risk & Reward management mode - 2025y**
+**Ver 0.6 - migration to VPS - 2025y**
 - [x] review of the entire application code
 - [x] error handling and saving logs in database about issues
 - [x] some modifications was required for migration to vps

@@ -47,9 +47,15 @@ to do:
 
       
 in progress:
-- [ ] review of the entire application code
       
 done:
+
+Ver 0.7 - independent trading app with Risk & Reward management mode
+
+Ver 0.6 - independent trading app with Risk & Reward management mode
+- [x] review of the entire application code
+- [x] error handling and saving logs in database about issues
+- [x] some modifications was required for migration to vps
 
 Ver 0.5 - independent trading app with Risk & Reward management mode
 - [x] removal of the implementation of the connection with the near protocol

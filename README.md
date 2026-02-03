@@ -54,23 +54,23 @@ in progress:
 
 done:
 
-Ver 0.7 - make new front-end layout 
+Ver 0.7 - make new front-end layout - 2026y
 - [x] The new front-end application was created using next.js version 15. The changes were aimed at integrating OAuth, improving table display, updating nextjs from version 14 and related packages, and changing the UI framework from daisyUI to HeroUI.
 - [x] OAuth integration required to make the application available to beta testers
 - [x] Make nextAuth & MongoDb integration
 
 
-Ver 0.6 - independent trading app with Risk & Reward management mode
+Ver 0.6 - independent trading app with Risk & Reward management mode - 2025y
 - [x] review of the entire application code
 - [x] error handling and saving logs in database about issues
 - [x] some modifications was required for migration to vps
 
-Ver 0.5 - independent trading app with Risk & Reward management mode
+Ver 0.5 - independent trading app with Risk & Reward management mode - 2025y
 - [x] removal of the implementation of the connection with the near protocol
 - [x] run a Risk & Reward management with time cycles on binance
 - [x] development & implementation of a Risk & Reward management algorithm and data structure
 
-Ver 0.4 - independent purchasing & selling app
+Ver 0.4 - independent purchasing & selling app - 2025y
 - [x] run a purchasing algorithm with time cycles on binance
 - [x] migration invest data from Near Protocol to MongoDB
 - [x] integration with new data base provider ![Static Badge](https://img.shields.io/badge/mongodb-6.17.0-ex?style=plastic&logo=mongodb&labelColor=%23000&color=%23fff)
@@ -83,7 +83,7 @@ Ver 0.4 - independent purchasing & selling app
 - [x] calculate 'indicator 3' from candlestick kraken & binance data
 - [x] calculate all 2 indicators from candlestick binance data
       
-Ver 0.3 - independent better selling app
+Ver 0.3 - independent better selling app - 2024y
 - [x] extend the sales algorithm with the “highest profit” stop loss functionality
 - [x] run a selling algorithm with time cycles on binance
 - [x] add binance to APIs
@@ -94,7 +94,7 @@ Ver 0.3 - independent better selling app
 - [x] calculate 'indicator 1' from candlestick kraken data
 - [x] expand API to make purchase on more than one exchanges by client app
       
-Ver 0.2 - independent selling app
+Ver 0.2 - independent selling app - 2024y
 - [x] run a selling algorithm with time cycles on kraken
 - [x] development & implementation of a selling algorithm 
 - [x] expand API to get & set invest data by client app with more than one exchanges
@@ -105,7 +105,7 @@ Ver 0.2 - independent selling app
 - [x] make API to get invest and kraken data at once by client app
 - [x] make API to get & set invest data by client app
       
-Ver 0.1 - starting app
+Ver 0.1 - starting app - 2024y
 - [x] ![Static Badge](https://img.shields.io/badge/near-contract-ex?style=plastic&logo=near&labelColor=%23000&color=%23fff) integration as data base
 - [x] ![Static Badge](https://img.shields.io/badge/kraken-api-ex?style=plastic&labelColor=%235841D8&color=%23000) integration
 - [x] ![Static Badge](https://img.shields.io/badge/nodejs-22.20.0-ex?style=plastic&logo=nodedotjs) ![Static Badge](https://img.shields.io/badge/typescript-5.8.3-ex?style=plastic&logo=typescript&logoColor=3178C6&color=3178C6) ![Static Badge](https://img.shields.io/badge/dotenv-16.5.0-ex?style=plastic&logo=dotenv&color=%23ECD53F) startup config

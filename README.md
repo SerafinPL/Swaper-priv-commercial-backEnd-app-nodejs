@@ -47,7 +47,10 @@ to do:
 in progress:
 
 - [ ] remake invest data structure to work with more than one user
-
+- [ ] ![Static Badge](https://img.shields.io/badge/kucoin-api-ex?style=plastic&logo=kucoin&labelColor=%23000&color=%2301BC8D) full use integration with 
+- [ ] run a selling algorithm with time cycles on kucoin
+- [ ] make API to make purchase on kraken by client app 
+- [ ] make API to get invest and kraken data at once by client app
 
 done:
 

@@ -52,73 +52,94 @@ read only integration:
 
 **to do:**
 
-- [ ] run a selling algorithm with time cycles on kucoin
-- [ ] make API to make purchase on kucoin by client app 
-- [ ] make API to get invest and kucoin data at once by client app
+- [ ] remake invest data structure to work with more than one user
 - [ ] remake Risk & Reward management data structure to work with more than one user
 - [ ] ![Static Badge](https://img.shields.io/badge/okx-api-ex?style=plastic&logo=okx&labelColor=%23000000&color=%23ffffff) integration
    
 **in progress:**
-
-- [ ] remake invest data structure to work with more than one user
+- [ ] New mode for saving/loading status in MongoDB with individual purchase settings for each coin
+- [ ] Implementation of the ability to sell cryptocurrencies based on market price or purchase price (DCA) 
+- [ ] New complex Errors handling system on BackEnd
+- [ ] New FrontEnd extend to use kuCoin purchase features
+- [ ] make API to make purchase on kucoin by client app 
+- [ ] make API to get invest and kucoin data at once by client app
+- [ ] run a selling algorithm with time cycles on kucoin
 - [ ] ![Static Badge](https://img.shields.io/badge/kucoin-api-ex?style=plastic&logo=kucoin&labelColor=%23000&color=%2301BC8D) full features integration. 
 [Thanks to the functionality launched in the KuCoin API, we can create full integration.](https://www.kucoin.com/announcement/hk-kucoin-convert-now-supports-api-trading?lang=en_US) 
 
 **done:**
 
-**Ver 0.7 - make new front-end layout - 2026y**
-- [x] The new front-end application was created using next.js version 15. The changes were aimed at integrating OAuth, improving table display, updating nextjs from version 14 and related packages, and changing the UI framework from daisyUI to HeroUI.
-- [x] OAuth integration required to make the application available to beta testers
-- [x] Make nextAuth & MongoDb integration
+---
 
+**Ver 0.7 – New Front-End Layout – Q1 2026**
 
-**Ver 0.6 - migration to VPS - 2025y**
-- [x] review of the entire application code
-- [x] error handling and saving logs in database about issues
-- [x] some modifications was required for migration to vps
+* [x] The new front-end application was developed using Next.js version 15. The changes were aimed at integrating OAuth, improving table display, upgrading Next.js from version 14 along with related packages, and changing the UI framework from daisyUI to HeroUI.
+* [x] OAuth integration was required to make the application available to beta testers.
+* [x] NextAuth and MongoDB integration was implemented.
 
-**Ver 0.5 - independent trading app with Risk & Reward management mode - 2025y**
-- [x] removal of the implementation of the connection with the near protocol
-- [x] run a Risk & Reward management with time cycles on binance
-- [x] development & implementation of a Risk & Reward management algorithm and data structure
+---
 
-**Ver 0.4 - independent purchasing & selling app - 2025y**
-- [x] run a purchasing algorithm with time cycles on binance
-- [x] migration invest data from Near Protocol to MongoDB
-- [x] integration with new data base provider ![Static Badge](https://img.shields.io/badge/mongodb-6.17.0-ex?style=plastic&logo=mongodb&labelColor=%23000&color=%23fff)
-- [x] some changes of complex assessment and indicator ranks algorithms and add Price Trend to calculations after testing feedback
-- [x] calculate Price Trend from clines kraken & binance data
-- [x] testing with actual market data and back testing complex assessment and indicators ranks functions
-- [x] make API to get candlestick data and calculated indicator & ranks from all 3 exchanges by client app
-- [x] development & implementation of a complex assessment based on three indicators
-- [x] development & implementation of a rank algorithm for 'indicator 3' calculations
-- [x] calculate 'indicator 3' from candlestick kraken & binance data
-- [x] calculate all 2 indicators from candlestick binance data
-      
-**Ver 0.3 - independent better selling app - 2024y**
-- [x] extend the sales algorithm with the “highest profit” stop loss functionality
-- [x] run a selling algorithm with time cycles on binance
-- [x] add binance to APIs
-- [x] ![Static Badge](https://img.shields.io/badge/binance-api-ex?style=plastic&logo=binance&logoColor=%23F0B90B&labelColor=%23000&color=%23F0B90B) integration
-- [x] development & implementation of a rank algorithm for 'indicator 2' calculations
-- [x] development & implementation of a rank algorithm for 'indicator 1' calculations
-- [x] calculate 'indicator 2' from candlestick kraken data
-- [x] calculate 'indicator 1' from candlestick kraken data
-- [x] expand API to make purchase on more than one exchanges by client app
-      
-**Ver 0.2 - independent selling app - 2024y**
-- [x] run a selling algorithm with time cycles on kraken
-- [x] development & implementation of a selling algorithm 
-- [x] expand API to get & set invest data by client app with more than one exchanges
-- [x] remake invest data structure to work with more than one exchanges
-- [x] make API to get invest and kucoin data at once by client app
-- [x] ![Static Badge](https://img.shields.io/badge/kucoin-api-ex?style=plastic&logo=kucoin&labelColor=%23000&color=%2301BC8D) read only integration
-- [x] make API to make purchase on kraken by client app 
-- [x] make API to get invest and kraken data at once by client app
-- [x] make API to get & set invest data by client app
-      
-**Ver 0.1 - starting app - 2024y**
-- [x] ![Static Badge](https://img.shields.io/badge/near-contract-ex?style=plastic&logo=near&labelColor=%23000&color=%23fff) integration as data base
-- [x] ![Static Badge](https://img.shields.io/badge/kraken-api-ex?style=plastic&labelColor=%235841D8&color=%23000) integration
-- [x] ![Static Badge](https://img.shields.io/badge/nodejs-22.20.0-ex?style=plastic&logo=nodedotjs) ![Static Badge](https://img.shields.io/badge/typescript-5.8.3-ex?style=plastic&logo=typescript&logoColor=3178C6&color=3178C6) ![Static Badge](https://img.shields.io/badge/dotenv-16.5.0-ex?style=plastic&logo=dotenv&color=%23ECD53F) startup config
+**Ver 0.6 – Migration to VPS – 2025**
 
+* [x] The entire application code was reviewed.
+* [x] Error handling was improved, and logs about issues were stored in the database.
+* [x] Some modifications were required for the migration to a VPS.
+
+---
+
+**Ver 0.5 – Independent Trading App with Risk & Reward Management Mode – 2025**
+
+* [x] The implementation of the connection with the Near protocol was removed.
+* [x] A Risk & Reward management mode with time cycles on Binance was implemented.
+* [x] A Risk & Reward management algorithm and its data structure were developed and implemented.
+
+---
+
+**Ver 0.4 – Independent Purchasing & Selling App – 2025**
+
+* [x] A purchasing algorithm with time cycles on Binance was implemented.
+* [x] Investment data was migrated from the Near Protocol to MongoDB.
+* [x] Integration with a new database provider (MongoDB 6.17.0) was completed.
+* [x] Complex assessment and indicator ranking algorithms were modified, and Price Trend was added to the calculations based on testing feedback.
+* [x] Price Trend was calculated using candlestick (kline) data from Kraken and Binance.
+* [x] Testing with live market data and backtesting of complex assessment and indicator ranking functions were conducted.
+* [x] An API was developed to provide candlestick data along with calculated indicators and rankings from all three exchanges to the client application.
+* [x] A complex assessment system based on three indicators was developed and implemented.
+* [x] A ranking algorithm for “Indicator 3” calculations was developed and implemented.
+* [x] “Indicator 3” was calculated using candlestick data from Kraken and Binance.
+* [x] Two indicators were calculated using candlestick data from Binance.
+
+---
+
+**Ver 0.3 – Independent Enhanced Selling App – 2024**
+
+* [x] The sales algorithm was extended with a “highest profit” stop-loss functionality.
+* [x] A selling algorithm with time cycles on Binance was implemented.
+* [x] Binance was added to the APIs.
+* [x] Binance API integration was completed.
+* [x] Ranking algorithms for “Indicator 2” and “Indicator 1” calculations were developed and implemented.
+* [x] “Indicator 2” was calculated using candlestick data from Kraken.
+* [x] “Indicator 1” was calculated using candlestick data from Kraken.
+* [x] The API was expanded to enable purchases on more than one exchange through the client application.
+
+---
+
+**Ver 0.2 – Independent Selling App – 2024**
+
+* [x] A selling algorithm with time cycles on Kraken was implemented.
+* [x] A selling algorithm was developed and implemented.
+* [x] The API was expanded to allow the client application to get and set investment data across multiple exchanges.
+* [x] The investment data structure was redesigned to support multiple exchanges.
+* [x] An API was created to retrieve investment and KuCoin data simultaneously for the client application.
+* [x] Read-only integration with the KuCoin API was completed.
+* [x] An API was developed to enable purchases on Kraken via the client application.
+* [x] An API was created to retrieve investment and Kraken data simultaneously for the client application.
+* [x] An API was developed to allow the client application to get and set investment data.
+
+---
+
+**Ver 0.1 – Initial Application Setup – 2024**
+
+* [x] Near smart contract integration was implemented as the database solution.
+* [x] Kraken API integration was completed.
+* [x] The initial project configuration was set up using Node.js (v22.20.0), TypeScript (v5.8.3), and dotenv (v16.5.0).
